@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.btn{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+.btn.number{
+border: 1px solid green;
+border-radius: 10px;
+background-color: lightgreen;
+font-size: 40px;
+
+}
+.btn.number:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.btn.operator{
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.btn.decimal{
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+
+.btn.equal{
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+
+#clear-btn{
+    border: 1px solid purple;
+    border-radius: 10px;
+    background-color: plum;
+}
+#clear-btn:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+.btn.operator:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+.btn.decimal:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+.btn.equal:hover{
+    background-color: tomato;
+    cursor: pointer;
+}   
+
+.screen{
+    height: 80px;
+    width: 320px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 10px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+    color: grey;
+}
+.current{
+    font-size: 30px;
+    color: black;
+}
+.clear-row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
